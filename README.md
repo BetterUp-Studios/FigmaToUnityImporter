@@ -1,15 +1,13 @@
-# Figma To Unity Importer
+# Figma To Unity Importer, 
+## Forked from https://github.com/ManakhovN/FigmaToUnityImporter
 
 ## Overall information
 Tool that imports nodes from Figma into the Unity.
 Before using I want u to notice, that the project is raw, and I can't promise you that I will develop it intensively.
 Some features are not ready yet. Some features are impossible to quickly recreate in Unity.
 
-## Contributing
-You are welcome to contribute. And you are free to use this project for any purpose.
-
 ## Install
-you can add `https://github.com/ManakhovN/FigmaToUnityImporter.git?path=/Assets/FigmaImporter` to Package Manager
+you can add `https://github.com/BetterUp-Studios/FigmaToUnityImporter.git?path=/Assets/FigmaImporter` to Package Manager
 
 ## Usage
 Firstly, you need to put FigmaImporter into your project.
@@ -68,12 +66,3 @@ There is also one thing with Fonts.
 If you got the error about Font. You should add it in FontLinks.asset scriptable object.
 
 ![Font](./ReadmeImages/step8.png)
-
-## Update 07.10.2021
-Changed position calculating for nodes. Now it doesnt use tricky operations with parents chaniging.
-Now if you choose existing object, instead of canvas, it will apply all changes to it without creating a new one.
-Also added scale option.
-Will test it and rewrite readme a little bit later.
-##Update 21.11.2021
-Some refactoring.
-Added SVG support.
